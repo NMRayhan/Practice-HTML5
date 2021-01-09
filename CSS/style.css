@@ -30,3 +30,27 @@ input[type="text"]:focus{
     width: 20%;
     background-color: whitesmoke;
 }
+header nav li{
+    list-style-type: none;
+    float: left;
+    padding: 10px;
+    background-color: aquamarine;
+    border-left: 2px solid #8de4c8;
+}
+header nav li:first-child{
+    border-left: none;
+}
+header nav li:hover a{
+    color: cadetblue;
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+header ul{
+    float: right;
+}
+body{
+    width: 80%;
+    margin: auto;
+}
