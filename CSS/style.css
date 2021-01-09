@@ -1,5 +1,5 @@
 td{
-    border: 1px solid red;
+    border: none;
     background-color: salmon;
     width: 10%;
     color: rgb(0, 0, 0);
@@ -8,4 +8,13 @@ tr>th{
     text-align: center;
     background-color: seagreen;
     color: rgb(228, 224, 224);
+}
+.t1{
+    border-collapse: collapse;
+}
+.t1 tr{
+    border-top: 1px solid white;
+}
+.t1 tr td{
+    border-left: 1px solid white;
 }
