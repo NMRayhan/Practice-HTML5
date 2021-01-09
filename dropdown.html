@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop Down Menu</title>
+    <style>
+        body{
+            width: 80%;
+            margin: auto;
+        }
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        nav{
+            margin-top: 5px;
+            height: 43px;
+            background-color: darkgray;
+        }
+        nav > ul > li{
+            list-style: none;
+            float: left;
+            padding: 10px;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+        nav ul li:hover{
+            background-color: darkslategray;
+            color: white;
+        }
+        nav ul li:hover>a{
+            background-color: darkslategray;
+            color: white;
+        }
+        .dropdown li{
+            list-style: none;
+        }
+        .dropdown{
+            margin-top: 10px;
+            position: absolute;
+            background-color: darkgray;
+            display: none;
+            margin-left: -10px;
+        }
+        .dropdown li{
+            padding: 10px;
+            border-top:2px solid rgb(85, 77, 77);
+        }
+        
+        li:hover .dropdown{
+            display: block;
+        }
+
+        .dropdown li:first-child{
+            border-top: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a>
+                <ul class="dropdown">
+                    <li><a href="#">DropDown-1</a></li>
+                    <li><a href="#">DropDown-2</a></li>
+                    <li><a href="#">DropDown-3</a></li>
+                </ul>
+                </li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- <main>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ipsa modi velit quidem, sequi temporibus incidunt nemo non iste cumque expedita molestiae cupiditate repudiandae voluptatum iusto odio architecto debitis dolorem!</p>
+    </main> -->
+</body>
+</html>
