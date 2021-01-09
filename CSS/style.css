@@ -18,3 +18,15 @@ tr>th{
 .t1 tr td{
     border-left: 1px solid white;
 }
+input[type="number"]:focus{
+    width: 20%;
+    background-color: whitesmoke;
+}
+input[type="email"]:focus{
+    width: 20%;
+    background-color: whitesmoke;
+}
+input[type="text"]:focus{
+    width: 20%;
+    background-color: whitesmoke;
+}
